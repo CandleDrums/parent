@@ -70,11 +70,6 @@
 		</dependency>
 		<!--logstash 日志处理组件end -->
 
-		<!-- jasypt用户加密数据库配置文件 -->
-		<dependency>
-			<groupId>com.github.ulisesbocchio</groupId>
-			<artifactId>jasypt-spring-boot-starter</artifactId>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
 		<dependency>
 			<groupId>com.zaxxer</groupId>

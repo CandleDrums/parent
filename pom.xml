@@ -13,7 +13,6 @@
 		<module>parent-api</module>
 		<module>parent-basic</module>
 		<module>parent-dep</module>
-		
 		<module>parent-module</module>
 	</modules>
 	<properties>
