@@ -23,7 +23,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<commons.encoding>UTF-8</commons.encoding>
-		<spring.boot.maven.plugin.version>2.2.0.RELEASE</spring.boot.maven.plugin.version>
+		<spring.boot.maven.plugin.version>2.2.6.RELEASE</spring.boot.maven.plugin.version>
 		<configure.maven.version>1.0.0-SNAPSHOT</configure.maven.version>
 		<api.version>1.0.0-SNAPSHOT</api.version>
 		<base.version>1.0.0-SNAPSHOT</base.version>
