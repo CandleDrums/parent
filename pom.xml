@@ -206,9 +206,6 @@
 								<goal>repackage</goal>
 							</goals>
 						</execution>
-						<execution>
-							<phase>none</phase>
-						</execution>
 					</executions>
 					<configuration>
 						<executable>true</executable>
