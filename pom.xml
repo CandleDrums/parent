@@ -57,6 +57,11 @@
 			</dependency>
 			<dependency>
 				<groupId>com.candledrums.base</groupId>
+				<artifactId>base-module</artifactId>
+				<version>${base.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.candledrums.base</groupId>
 				<artifactId>base-biz</artifactId>
 				<version>${base.version}</version>
 			</dependency>
