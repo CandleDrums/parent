@@ -192,6 +192,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>com.candledrums.maven</groupId>
+				<artifactId>configure-maven-apollo</artifactId>
+				<version>${configure.maven.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>
@@ -222,58 +229,6 @@
 					<configuration>
 						<executable>true</executable>
 					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-resources-plugin</artifactId>
-					<executions>
-						<execution>
-							<id>copy-resources</id>
-							<phase>install</phase>
-							<goals>
-								<goal>copy-resources</goal>
-							</goals>
-							<configuration>
-								<outputDirectory>${project.build.outputDirectory}</outputDirectory>
-								<resources>
-									<resource>
-										<directory>src/main/resources</directory>
-										<includes>
-											<include>*.properties</include>
-											<include>*.xml</include>
-											<include>*.yml</include>
-										</includes>
-										<filtering>true</filtering>
-									</resource>
-									<resource>
-										<directory>src/main/resources/bin</directory>
-										<includes>
-											<include>start.sh</include>
-										</includes>
-										<filtering>true</filtering>
-									</resource>
-								</resources>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-assembly-plugin</artifactId>
-					<configuration>
-						<descriptors>
-							<descriptor>src/main/resources/package.xml</descriptor>
-						</descriptors>
-					</configuration>
-					<executions>
-						<execution>
-							<id>make-assembly</id>
-							<phase>install</phase>
-							<goals>
-								<goal>single</goal>
-							</goals>
-						</execution>
-					</executions>
 				</plugin>
 			</plugins>
 		</pluginManagement>
