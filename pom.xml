@@ -233,11 +233,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>snapshots</id>
-			<name>snapshots</name>
-			<url>http://nexus.youlife.net.cn/repository/maven-snapshots/</url>
-		</repository>
-	</distributionManagement>
 </project>
