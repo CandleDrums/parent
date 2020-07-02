@@ -18,6 +18,14 @@
 		</dependency>
 		<dependency>
 			<groupId>com.candledrums.base</groupId>
+			<artifactId>base-util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.candledrums.base</groupId>
+			<artifactId>base-exception</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.candledrums.base</groupId>
 			<artifactId>base-api</artifactId>
 		</dependency>
 		<dependency>
