@@ -14,6 +14,7 @@
 		<module>parent-basic</module>
 		<module>parent-dep</module>
 		<module>parent-module</module>
+		<module>parent-rest</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
