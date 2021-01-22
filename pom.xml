@@ -74,7 +74,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.candledrums.base</groupId>
-				<artifactId>base-core</artifactId>
+				<artifactId>base-rest</artifactId>
 				<version>${base.version}</version>
 			</dependency>
 			<dependency>
@@ -106,6 +106,13 @@
 			<dependency>
 				<groupId>com.candledrums.maven</groupId>
 				<artifactId>configure-maven-guava</artifactId>
+				<version>${configure.maven.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.candledrums.maven</groupId>
+				<artifactId>configure-maven-jackson</artifactId>
 				<version>${configure.maven.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
