@@ -14,23 +14,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.candledrums.base</groupId>
-			<artifactId>base-common</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.candledrums.base</groupId>
-			<artifactId>base-util</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.candledrums.base</groupId>
-			<artifactId>base-exception</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.candledrums.base</groupId>
-			<artifactId>base-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
+			<artifactId>base-redis</artifactId>
 		</dependency>
 	</dependencies>
 </project>
