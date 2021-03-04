@@ -83,6 +83,11 @@
 				<version>${base.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>com.candledrums.api</groupId>
+				<artifactId>auth-api</artifactId>
+				<version>${api.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>com.candledrums.maven</groupId>
 				<artifactId>configure-maven-lombok</artifactId>
 				<version>${configure.maven.version}</version>
@@ -183,6 +188,13 @@
 			<dependency>
 				<groupId>com.candledrums.maven</groupId>
 				<artifactId>configure-maven-spring-cloud</artifactId>
+				<version>${configure.maven.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.candledrums.maven</groupId>
+				<artifactId>configure-maven-spring-security</artifactId>
 				<version>${configure.maven.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
